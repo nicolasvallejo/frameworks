@@ -1,0 +1,124 @@
+/*clases para editar la barra superior*/
+.barra-superior{
+  min-height: 150px;
+  background-color: #CEF2B8;
+}
+.logo{
+  width: 15%;
+  height: 100%;
+  margin-top: 0%;
+}
+.img-social{
+  width: 70px;
+  height: 70px;
+}
+.redes-sociales{
+  margin-left: 20%;
+  float: right;
+  margin-top: 10.6%;
+  margin-right: 4%;
+}
+
+/*Clases para editar navbar*/
+.btn{
+
+  background-color: #8BE754;
+
+}
+.btn :hover{
+  background-color: #E0E2DF;
+}
+.navbar-inverse{
+
+  background-color: #618CE0;
+
+}
+.menu{
+  margin-left: 28%;
+}
+.boton{
+  margin-right: 3%;
+
+}
+/*Clases para editar contenido*/
+.tributo{
+  background-color: rgba(111, 153, 248, 0.4);
+  border-right: 6px solid #CEF2B8;
+  border-bottom:  6px solid #CEF2B8;
+  border-top:  6px solid #CEF2B8;
+  border-radius: 20px;
+
+}
+
+
+.img-tributo{
+  float: left;
+  width: 100%;
+  margin-top: 10%;
+  filter: drop-shadow(2px 2px 5px #000000);
+  border-radius: 10px;
+}
+.img-album{
+  float: right;
+  width: 100%;
+  margin-top: 10%;
+  margin-left: 1%;
+  filter: drop-shadow(2px 2px 5px #000000);
+  border-radius: 10px;
+}
+.comenta{
+  margin-top: 5%;
+  margin-bottom: 3%;
+  margin-left: 1%;
+}
+.usu{
+  width: 7%;
+  height: 37%;
+  margin-left: 10%;
+  margin-bottom: 11%;
+}
+/*Clase para editar busqueda*/
+.barra-bus{
+  margin-left: 30%;
+  margin-top: 10%;
+}
+.enviar{
+  float: right;
+}
+.buscador{
+  margin-top: 1%;
+}
+
+@media (max-width:600px) {
+  .logo{
+    width: 20%;
+    height: 60%;
+    margin-top: 9%;
+  }
+
+}
+@media (max-width:400px) {
+  .logo{
+    width: 40%;
+    height: 70%;
+    margin-top: 9%;
+  }
+  .redes-sociales{
+    margin-left: 60%;
+    float: right;
+    margin-top: 0%;
+    margin-right: 0%;
+    position: relative;
+    bottom: 7%;
+  }
+  .img-social{
+    width: 30%;
+    height: 10%;
+  }
+  .usu{
+    width: 7%;
+    height: 37%;
+    margin-left: 10%;
+    margin-bottom: 0%;
+  }
+}

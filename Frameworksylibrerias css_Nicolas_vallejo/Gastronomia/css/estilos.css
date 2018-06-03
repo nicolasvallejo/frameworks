@@ -1,0 +1,53 @@
+.body-img{
+  background-image:  url("../img/body.jpg");
+  background-position: center center;
+    background-size: cover;
+}
+.total{
+    background-color: rgba(255, 246, 134, 0.9);
+}
+.header{
+  background-color: rgba(255, 246, 134, 0.9);
+
+}
+.titulo{
+  border-right: 1px grey solid
+}
+.contenido{
+  background-color: rgba(255, 250, 190, 0.9);
+  padding-left: 1%;
+  padding-top: 2%;
+  padding-right: 1%;
+  border-radius: 10px;
+}
+
+#buscar{
+text-shadow: none !important;
+font-size: 160%;
+float: left;
+background-color: #d1d5dc;
+padding-top: 5%;
+padding-right: 20%;
+}
+ul{
+  list-style: none;
+  margin-right: 6%;
+}
+.button{
+background-color: rgba(255, 250, 190, 0.9);
+color: black;
+border: 3px solid #FFF686;
+}
+.img-food{
+  width: 100%;
+  border: 3px solid white;
+  border-radius: 10px;
+
+}
+ a{
+  color: #2A8904;
+
+}
+li{
+  margin-top: 5%;
+}
